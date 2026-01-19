@@ -6,7 +6,7 @@ import time
 from dotenv import load_dotenv
 from functools import reduce
 
-# .env 로드
+# .env 로드!
 load_dotenv()
 client_id = os.getenv('NAVER_CLIENT_ID')
 client_secret = os.getenv('NAVER_CLIENT_SECRET')
